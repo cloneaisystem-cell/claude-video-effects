@@ -49,5 +49,7 @@ Write `out/props.json`, for example `{"id": "glass-widgets", "word": "CLAUDE", "
 
 For `all`: prepare once with the cutout, then render the 12 one after another into `out/`.
 
+Then copy each finished MP4 next to the user's clip, named `<clip-name>-<effect>.mp4` (e.g. `me-text-behind.mp4`), so they never have to look inside the skills folder.
+
 ## 5. Report
-Give the output path(s) and say that it's 9:16 1080x1920 at 30 fps with no sound. The user adds music in Instagram/TikTok. If a cutout effect shows bits of the background, suggest a clip with a plainer background or the person further from objects.
+Give the path(s) of the copies next to the clip and say that it's 9:16 1080x1920 at 30 fps with no sound. The user adds music in Instagram/TikTok. If a cutout effect shows bits of the background, suggest a clip with a plainer background or the person further from objects.
