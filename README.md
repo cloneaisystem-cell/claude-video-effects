@@ -21,8 +21,8 @@ Made by [@clone.creatives](https://www.instagram.com/clone.creatives/).
 | `/effects checklist` | a live checklist edits your clip step by step |
 | `/effects all` | all 12, one file each |
 
-## Install (2 minutes)
-You need [Claude Code](https://claude.com/claude-code), **Node 18+**, **Python 3.10+** and **ffmpeg**.
+## Install
+You need [Claude Code](https://claude.com/claude-code), **Node 18+**, **Python 3.11+** and **ffmpeg**.
 
 **macOS / Linux:**
 ```bash

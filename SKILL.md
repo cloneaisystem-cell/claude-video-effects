@@ -12,7 +12,8 @@ The Remotion project lives in `template/` next to this file. Every path below is
 ## 1. First run only: set up (skip the parts that are already done)
 - `node --version` must be 18 or newer. If `template/node_modules` is missing, run `npm install` in `template/`.
 - Check `ffmpeg -version`. If it is missing, tell the user how to install it (macOS `brew install ffmpeg`, Windows `winget install ffmpeg`) and stop.
-- Check `python -c "import rembg, PIL, numpy, scipy"`. If it fails, run `pip install "rembg[cpu]" pillow numpy scipy`.
+- Python must be 3.11 or newer (rembg needs it). Use `python`, or `python3` if `python` is missing or older; use that same command everywhere below.
+- Check `python -c "import rembg, PIL, numpy, scipy"`. If it fails, run `python -m pip install "rembg[cpu]" pillow numpy scipy`.
 - The first cutout downloads the rembg model (~170 MB) automatically. Say so once.
 
 ## 2. Understand the request
