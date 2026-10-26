@@ -26,12 +26,12 @@ You need [Claude Code](https://claude.com/claude-code), **Node 18+**, **Python 3
 
 **macOS / Linux:**
 ```bash
-git clone https://github.com/YOUR-GITHUB/claude-video-effects ~/.claude/skills/effects
+git clone https://github.com/cloneaisystem-cell/claude-video-effects ~/.claude/skills/effects
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/YOUR-GITHUB/claude-video-effects "$env:USERPROFILE\.claude\skills\effects"
+git clone https://github.com/cloneaisystem-cell/claude-video-effects "$env:USERPROFILE\.claude\skills\effects"
 ```
 
 Then open Claude Code in any folder and type:
